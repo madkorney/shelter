@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets/icons/bone_.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/normalize.css">
+     <link rel="stylesheet" href="style.css">
+    <title>Pets</title>
+</head>
+<body>
+  <div class="modal-container hidden" id="modal-win" >
+    <div class="modal-window" id="modal-win">
+      <button class="modal-close-btn" id="btn-modal-close">
+        <img src="../../assets/svg/close.svg" class="btn-modal-icon">
+      </button>
+
+      <div class="modal-window-content" id="modal-content">
+        
+        <div class="modal-image" id="modal-img">
+          <img src="../../assets/images/pets/jennifer.png" alt="jen" class="modal-img">
+        </div>
+
+        <div class="modal-info">
+          <h2 class="modal-title" id="modal-title">Jennifer</h2>
+
+          <h3 class="modal-subtitle" id="modal-subtitle">Dog - Labrador</h3>
+
+          <p class="modal-text" id="modal-text">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</p>
+
+          <ul class="modal-list">
+            <li class="modal-list-item" id="modal-item-age">
+              <span class="modal-list-span">Age:</span> 2 months
+            </li>
+            <li class="modal-list-item" id="modal-item-inoculations">
+              <span class="modal-list-span">Inoculations:</span> none
+            </li>
+            <li class="modal-list-item" id="modal-item-deceases">
+              <span class="modal-list-span">Deseases:</span> none
+            </li>
+            <li class="modal-list-item" id="modal-item-parasites">
+              <span class="modal-list-span">Parasites:</span> none
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-burger-back hidden" id="modal-burger-back" ></div>
+
+  <div class="burger-back-click hidden" id="burger-back-click" ></div>
+
+  <div class="head-wrapper">  
+    <header class="header-container">
+        <div class="logo-container" onclick="window.location.href='../main/index.html'">
+          <h1 class="logo-title">Cozy House</h1>
+          <p class="logo-subtitle">Shelter for pets in Boston</p>
+    
+        </div>
+        <nav class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="../main/index.html">About the shelter</a></li>
+            <li class="nav-item active"><a class="nav-link active" href="#pets">Our pets</a></li>
+            <li class="nav-item"><a class="nav-link" href="../main/index.html#help">Help the shelter</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <div class="burger-icon" id="burger-icon">
+          <img src="../../assets/svg/burger.svg" alt="">
+        </div>
+
+        <div class="burger-container" id="burger-container">
+          <!-- <div class="logo-container">
+            <h1 class="logo-title">Cozy House</h1>
+            <p class="logo-subtitle">Shelter for pets in Boston</p>
+      
+          </div> -->
+          <nav class="burger-nav">
+            <ul class="burger-nav-menu">
+              <li class="burger-nav-menu-item active"><a class="burger-link" href="../main/index.html">About the shelter</a></li>
+              <li class="burger-nav-menu-item"><a class="burger-link  active" href="#pets">Our pets</a></li>
+              <li class="burger-nav-menu-item"><a class="burger-link" href="../main/index.html#help">Help the shelter</a></li>
+              <li class="burger-nav-menu-item"><a class="burger-link" href="#contacts">Contacts</a></li>
+            </ul>
+      
+          </nav>
+        </div>
+        
+    
+    </header>
+  </div>
+
+  <main class="main-container-pets" id="#pets">
+    <section class="pets-pages">
+
+      <h2 class="section-title">Our friends who are&nbsp;looking for a house</h2>
+
+      <div class="pet-cards-container">
+
+        <div class="pet-card" data-cardid="pet005">
+          <img src="../../assets/images/pets/katrine.png" alt="cat Katrine" class="pet-card-img">
+          <p class="pet-card-text">Katrine</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet001">
+          <img src="../../assets/images/pets/jennifer.png" alt="puppy Jenifer" class="pet-card-img">
+          <p class="pet-card-text">Jennifer</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet003">
+          <img src="../../assets/images/pets/woody.png" alt="dog Woody" class="pet-card-img">
+          <p class="pet-card-text">Woody</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet002">
+          <img src="../../assets/images/pets/sophia.png" alt="puppy Sofia" class="pet-card-img">
+          <p class="pet-card-text">Sophia</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet006">
+          <img src="../../assets/images/pets/timmy.png" alt="cat Timmy" class="pet-card-img">
+          <p class="pet-card-text">Timmy</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet008">
+          <img src="../../assets/images/pets/charly.png" alt="Charly" class="pet-card-img">
+          <p class="pet-card-text">Charly</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet004">
+          <img src="../../assets/images/pets/scarlett.png" alt="Scarlett" class="pet-card-img">
+          <p class="pet-card-text">Scarlett</p>
+          <button class="btn">Learn more</button>
+        </div>
+
+        <div class="pet-card" data-cardid="pet007">
+          <img src="../../assets/images/pets/freddie.png" alt="cat Freddie" class="pet-card-img">
+          <p class="pet-card-text">Freddie</p>
+          <button class="btn">Learn more</button>
+        </div>
+      </div>
+
+      <nav class="page-nav">
+        <button class="page-btn disabled" date-state="disabled" id="page-btn-first-page">&lt;&lt;</button>
+        <button class="page-btn disabled" date-state="disabled" id="page-btn-prev-page">&lt;</button>
+        <button class="page-btn active" date-state="enabled" id="page-display-number">1</button>
+        <button class="page-btn enabled" date-state="enabled" id="page-btn-next-page">&gt;</button>
+        <button class="page-btn enabled" date-state="enabled" id="page-btn-last-page">&gt;&gt;</button>
+      </nav>
+
+    
+    </section>
+  </main>
+
+  <footer class="footer-container">
+    <section class="contacts-container" id="contacts">
+      <div class="contacts-content">
+        <div class="contacts-content-info">
+          <div class="contact-block contacts">
+            
+            <h2 class="section-title">For questions and suggestions</h2>
+            
+            <div class="contact-details">
+              <a href="mailto:" target="_blank"><img src="../../assets/svg/mail.svg" alt="email icon" class="contact-icon"></a>
+              <p class="contacts-text"><a href="mailto:" target="_blank">email@shelter.com</a></p>
+            </div>
+
+            <div class="contact-details">
+              <a href="tel:+" target="_blank"><img src="../../assets/svg/phone.svg" alt="phone icon" class="contact-icon"></a>
+              <p class="contacts-text"><a href="tel:+" target="_blank">+13 674 567 75 54</a></p>
+            </div>
+
+          </div>
+
+          <div class="contact-block location">
+            <h2 class="section-title">We are waiting for your visit</h2>
+            
+            <div class="contact-details">
+              <a href="https://goo.gl/maps/aGTkRPkKNV8B88Qv5" target="_blank"><img src="../../assets/svg/pin.svg" alt="geo icon" class="contact-icon"></a>
+              <p class="contacts-text"><a href="https://goo.gl/maps/aGTkRPkKNV8B88Qv5" target="_blank">1 Central Street, Boston (entrance from the store)</a></p>
+            </div>
+
+            <div class="contact-details">
+              <a href="https://goo.gl/maps/ELbUc5tNjk8fZU2R7" target="_blank"><img src="../../assets/svg/pin.svg" alt="geo icon" class="contact-icon"></a>
+              <p class="contacts-text"><a href="https://goo.gl/maps/ELbUc5tNjk8fZU2R7" target="_blank">18 South Park, London</a></p>
+            </div>
+          </div>
+        </div>  
+
+        <div class="puppy-img">
+          <img src="..\..\assets\images\main\footer-puppy.png" alt="cute puppy">
+        </div>
+        
+
+      </div>
+    </section>
+
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

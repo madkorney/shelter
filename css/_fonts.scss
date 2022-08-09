@@ -1,0 +1,113 @@
+// fonts
+
+@font-face {
+    font-family: 'Arial';
+    src: url("../../assets/fonts/arial.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url("../../assets/fonts/arialbd.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url("../../assets/fonts/Georgia.ttf");
+}
+
+
+.logo-title {
+  font-family: Georgia;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 110%;/* or 35px */
+  letter-spacing: 0.06em;
+}
+
+.logo-subtitle {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+
+
+}
+
+.nav-list {
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;//160%
+}
+
+.section-title {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+
+.sub-header{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.pet-card-text {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 0.06em;
+}
+
+.help-item-text {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  letter-spacing: 0.06em;
+
+}
+
+.credit-card-number {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  letter-spacing: 0.06em;
+
+  /* color-dark-l */
+
+  color: $color-dark-l;
+
+}
+
+.legal-info {
+  color: $color-dark-m;
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+}
+
+.contacts-text {
+  font-size: 12px;
+}
